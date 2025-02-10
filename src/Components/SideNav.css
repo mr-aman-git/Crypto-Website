@@ -8,13 +8,68 @@ html, body{
 height : 100%;
 width : 100%;
 }
-.logo img{
-    background-color: blue;
-    padding: 5px 28px;
-}
 
 .sidenav{
     background-color: white;
     width: 255px;
     height: 100vh;
+}
+
+.nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo img{
+    background-color: blue;
+    padding: 5px 28px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+.dashboard {
+    width: 220px;
+    margin-left: 15px;
+    
+}
+.dashboard p{
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.transaction {
+    width: 220px;
+    margin-left: 15px;
+    margin-top: 6px;
+    
+}
+.transaction p{
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.support {
+    width: 220px;
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 20px; 
+}
+.support p{
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.hovers:hover{
+    background-color: rgb(158, 156, 156);
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
 }
