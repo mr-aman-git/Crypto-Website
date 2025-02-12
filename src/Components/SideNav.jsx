@@ -7,9 +7,7 @@ const SideNav = () => {
         <div className="nav">
 
             <div className="mininav">
-                <div className="logo">
-                    <img src="https://crypto.com/__assets/mkt-nav-footer/images/cdc_logo.svg" alt="" />
-                </div>
+                
 
                 <div className="dashboard hovers">
                     <p> <i class="ri-dashboard-line"></i> Dashboard</p>

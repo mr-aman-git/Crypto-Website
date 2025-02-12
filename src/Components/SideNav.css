@@ -7,30 +7,28 @@ box-sizing : border-box;
 html, body{
 height : 100%;
 width : 100%;
+overflow: hidden;
+
 }
 
 .sidenav{
     background-color: white;
-    width: 255px;
+    min-width: 170px;
+    width: 17%;
     height: 100vh;
+    
 }
 
 .nav{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.logo img{
-    background-color: blue;
-    padding: 5px 28px;
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-
 
 .dashboard {
-    width: 220px;
+    max-width: 210px;
+    min-width: 100px;
     margin-left: 15px;
     
 }
@@ -42,7 +40,8 @@ width : 100%;
 }
 
 .transaction {
-    width: 220px;
+    max-width: 210px;
+    min-width: 100px;
     margin-left: 15px;
     margin-top: 6px;
     
@@ -55,7 +54,8 @@ width : 100%;
 }
 
 .support {
-    width: 220px;
+    max-width: 210px;
+    min-width: 100px;
     margin-left: 15px;
     margin-top: 6px;
     margin-bottom: 20px; 
