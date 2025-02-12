@@ -18,7 +18,13 @@ function TopNav() {
                 </div>
 
                 <div className="user">
-                 <p><i class="ri-user-community-line"></i></p>
+                 <p><i class="ri-user-community-line"></i>
+                  <ul>
+                    <li>Profile</li>
+                    <li>Detail</li>
+                    <li>Payment</li>
+                  </ul>
+                  </p>
                 </div>
 
             </div>
