@@ -17,11 +17,11 @@ function TopNav() {
             </div>
 
             <div class="dropdown">
-              <button class="dropbtn">Dropdown</button>
+              <p class="dropbtn"><i class="ri-user-community-line"></i></p>
               <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">My Profile</a>
+                <a href="#">Security / Privacy</a>
+                <a href="#">Setting</a>
               </div>
             </div>
 
